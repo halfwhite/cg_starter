@@ -55,7 +55,7 @@ public class TimePreference extends DialogPreference {
     public TimePreference(Context ctxt, AttributeSet attrs) {
         super(ctxt, attrs);
         setPositiveButtonText(ctxt.getString(R.string.set));
-        setNegativeButtonText(ctxt.getString(R.string.cancel));
+        setNegativeButtonText(null);
         setDefaultValue("00:00-00:00");
         mContext = ctxt;
     }
